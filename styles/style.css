@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 /* common styles*/
@@ -27,7 +28,7 @@ section {
     background: #E02C6D;
     border-radius: 41px;
     padding: 10px 20px;
-    color:white;
+    color: white;
     font-size: 16px;
     font-weight: 700;
 }
@@ -44,7 +45,7 @@ section {
 
 .menus li {
     list-style: none;
-    
+
 }
 
 .menus li a {
@@ -72,23 +73,65 @@ section {
     margin: 16px 0px;
 }
 
-.banner-thumbnail{
+.banner-thumbnail {
     border-radius: 50%;
     padding: 5px;
     box-shadow: 0px 1px 2px 3px rgba(235, 183, 183, 0.3);
 }
 
 /* all logo section styles */
-.logo-container{
+.logo-container {
     margin: 50px 165px;
 }
-.logos{
+
+.logos {
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 1px 2px 3px rgba(235, 183, 183, 0.3);
     padding: 36px 62px;
     align-items: center;
 }
-.logos img{
-    
+
+/* Popular Collection section styles */
+.products-container{
+    margin: 100px 196px;
+}
+.product-container-title {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.product {
+    height: 476px;
+    width: 330px;
+    padding: 15px 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.product-thumbnail img {
+    width: 330px;
+}
+.fa-star.filled{
+    color: #FB8200;
+    font-size: 16px;
+}
+.product-description{
+    width: 196px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.see-more{
+    text-align: right;
+    color:#E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 50px 0px;
 }
