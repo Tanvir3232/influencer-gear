@@ -57,6 +57,7 @@ section {
 /* banner section styles */
 .banner {
     display: flex;
+    gap: 250px;
     align-items: center;
 }
 
@@ -74,5 +75,20 @@ section {
 .banner-thumbnail{
     border-radius: 50%;
     padding: 5px;
-    box-shadow: 0px 1px 2px 3px rgba(204, 154, 154, 0.1);
+    box-shadow: 0px 1px 2px 3px rgba(235, 183, 183, 0.3);
+}
+
+/* all logo section styles */
+.logo-container{
+    margin: 50px 165px;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2px 3px rgba(235, 183, 183, 0.3);
+    padding: 36px 62px;
+    align-items: center;
+}
+.logos img{
+    
 }
