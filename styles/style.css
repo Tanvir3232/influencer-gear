@@ -142,8 +142,23 @@ section {
     gap: 130px;
     align-items: center;
     padding: 0px 30px;
+    margin-bottom: 100px;
 }
 .feature-description{
     width: 500px;
     margin: 16px 0px;
+}
+
+/* footer section styles */
+.footer{
+    background-color:rgb(22, 11, 32);
+    height: 200px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.social-media i{
+   margin-left: 20px;
 }
